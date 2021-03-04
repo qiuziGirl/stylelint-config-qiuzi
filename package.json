@@ -1,0 +1,47 @@
+{
+  "name": "stylelint-config-qiuzi",
+  "version": "1.0.0",
+  "description": "Default stylelint config used by qiuzi.",
+  "main": "css/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuziGirl/stylelint-config-qiuzi.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "config",
+    "lint"
+  ],
+  "author": "qiuzi (https://github.com/qiuziGirl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiuziGirl/stylelint-config-qiuzi/issues"
+  },
+  "homepage": "https://github.com/qiuziGirl/stylelint-config-qiuzi#readme",
+  "files": [
+    "css/index.js",
+    "scss/index.js"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "stylelint": "^13.11.0"
+  },
+  "scripts": {
+    "eslint": "eslint --report-unused-disable-directives .",
+    "lint": "npm run eslint",
+    "test": "npm run eslint"
+  }
+}
