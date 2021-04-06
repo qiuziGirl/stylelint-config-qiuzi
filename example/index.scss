@@ -1,0 +1,12 @@
+.example-container {
+  &__header {
+    height: 60px;
+    font-weight: 500;
+  }
+
+  &__main {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+}
