@@ -13,7 +13,9 @@ module.exports = {
     'scss/at-import-partial-extension': 'never',
     'scss/at-mixin-argumentless-call-parentheses': 'always',
     'scss/at-mixin-parentheses-space-before': 'never',
-    'scss/at-rule-no-unknown': true,
+    'scss/at-rule-no-unknown': [ true, {
+      ignoreAtRules: ['extend', 'at-root', 'debug', 'warn', 'error', 'if', 'else', 'for', 'each', 'while', 'mixin', 'include', 'content', 'return', 'function']
+    }],
     'scss/dimension-no-non-numeric-values': true,
     'scss/dollar-variable-colon-space-after': 'at-least-one-space',
     'scss/dollar-variable-colon-space-before': 'never',

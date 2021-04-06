@@ -12,9 +12,7 @@ module.exports = {
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-newline-after': 'always',
-    'color-named': 'never',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
-    'declaration-no-important': true,
     'font-family-name-quotes': 'always-where-recommended',
     'font-weight-notation': [
       'numeric',
@@ -242,7 +240,6 @@ module.exports = {
     ],
     'property-no-vendor-prefix': true,
     'selector-attribute-quotes': 'always',
-    'selector-class-pattern': '^[a-z][a-z0-9\\-]*[a-z0-9]$',
     'selector-list-comma-newline-before': 'never-multi-line',
     'selector-list-comma-space-after': 'always-single-line',
     'selector-list-comma-space-before': 'never-single-line',
