@@ -10,6 +10,9 @@ module.exports = {
   'rules': {
     'at-rule-name-space-after': 'always',
     'at-rule-no-vendor-prefix': true,
+    'at-rule-no-unknown': [ true, {
+      ignoreAtRules: ['extend', 'at-root', 'debug', 'warn', 'error', 'if', 'else', 'for', 'each', 'while', 'mixin', 'include', 'content', 'return', 'function']
+    }],
     'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
