@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-qiuzi",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Default stylelint config used by qiuzi.",
   "main": "css/index.js",
   "repository": {
