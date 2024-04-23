@@ -24,16 +24,16 @@
     "scss/index.js"
   ],
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "peerDependencies": {
-    "stylelint": "^12.0.0 || ^13.0.0 || ^14.0.0"
+    "stylelint": "^13.0.0 || ^14.0.0"
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^5.0.2",
-    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-config-standard": "^24.0.0",
     "stylelint-order": "^6.0.3",
-    "stylelint-scss": "^4.7.0"
+    "stylelint-scss": "^5.2.1"
   },
   "devDependencies": {
     "eslint": "^8.4.1",
