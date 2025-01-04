@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-qiuzi",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Default stylelint config used by qiuzi.",
   "main": "css/index.js",
   "repository": {
@@ -27,7 +27,7 @@
     "node": ">=16"
   },
   "peerDependencies": {
-    "stylelint": "^13.0.0 || ^14.0.0"
+    "stylelint": "^14.0.0 || ^15.0.0"
   },
   "dependencies": {
     "stylelint-config-recommended-scss": "^8.0.0",
