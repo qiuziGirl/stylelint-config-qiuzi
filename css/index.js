@@ -8,14 +8,10 @@ module.exports = {
     'stylelint-order'
   ],
   'rules': {
-    'at-rule-name-space-after': 'always',
     'at-rule-no-vendor-prefix': true,
     'at-rule-no-unknown': [ true, {
       ignoreAtRules: ['extend', 'at-root', 'debug', 'warn', 'error', 'if', 'else', 'for', 'each', 'while', 'mixin', 'include', 'content', 'return', 'function']
     }],
-    'at-rule-semicolon-space-before': 'never',
-    'block-closing-brace-newline-after': 'always',
-    'declaration-block-semicolon-newline-before': 'never-multi-line',
     'font-family-name-quotes': 'always-where-recommended',
     'font-weight-notation': [
       'numeric',
@@ -27,9 +23,7 @@ module.exports = {
     ],
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
-    'max-empty-lines': 2,
     'media-feature-name-no-vendor-prefix': true,
-    'number-leading-zero': 'never',
     'order/properties-order': [
       'position',
       'top',
@@ -243,9 +237,6 @@ module.exports = {
     ],
     'property-no-vendor-prefix': true,
     'selector-attribute-quotes': 'always',
-    'selector-list-comma-newline-before': 'never-multi-line',
-    'selector-list-comma-space-after': 'always-single-line',
-    'selector-list-comma-space-before': 'never-single-line',
     'selector-max-attribute': 2,
     'selector-max-class': 4,
     'selector-max-combinators': 4,
@@ -256,11 +247,6 @@ module.exports = {
     'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
     'shorthand-property-no-redundant-values': true,
-    'string-quotes': 'double',
-    'unicode-bom': 'never',
-    'value-list-comma-newline-after': 'never-multi-line',
-    'value-list-comma-newline-before': 'never-multi-line',
-    'value-list-comma-space-after': 'always',
     'value-no-vendor-prefix': true
   }
 };
