@@ -41,6 +41,7 @@
   },
   "scripts": {
     "eslint": "eslint --report-unused-disable-directives .",
+    "stylelint": "stylelint example/index.scss",
     "lint": "npm run eslint",
     "test": "npm run eslint"
   }
