@@ -24,10 +24,10 @@
     "scss/index.js"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "peerDependencies": {
-    "stylelint": "^14.0.0 || ^15.0.0"
+    "stylelint": "^15.10.0 || ^16.0.0"
   },
   "dependencies": {
     "stylelint-config-recommended-scss": "^9.0.1",
