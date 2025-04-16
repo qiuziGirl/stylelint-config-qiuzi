@@ -2,8 +2,8 @@
 
 module.exports = {
   'extends': [
+    '../css',
     'stylelint-config-recommended-scss',
-    '../css'
   ],
   'rules': {
     'scss/at-function-named-arguments': 'never',
