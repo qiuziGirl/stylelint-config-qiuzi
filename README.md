@@ -12,7 +12,7 @@ yarn add stylelint-config-qiuzi --dev
 
 ## Compatibility
 
-This config is compatible with Stylelint v16.2.1 and above.
+This config is compatible with Stylelint v16.18.0 and above.
 
 ## Usage
 
