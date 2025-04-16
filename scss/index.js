@@ -9,7 +9,7 @@ module.exports = {
     'scss/at-function-named-arguments': 'never',
     'scss/at-function-pattern': '^[a-z][a-z-]*$',
     'scss/at-function-parentheses-space-before': 'never',
-    'scss/at-import-partial-extension': 'never',
+    'scss/load-partial-extension': 'never',
     'scss/at-mixin-argumentless-call-parentheses': 'always',
     'scss/at-mixin-parentheses-space-before': 'never',
     'scss/dimension-no-non-numeric-values': true,
