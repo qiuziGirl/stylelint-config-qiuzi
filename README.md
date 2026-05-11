@@ -12,7 +12,7 @@ yarn add stylelint-config-qiuzi --dev
 
 ## Compatibility
 
-This config is compatible with Stylelint v16.18.0 and above.
+This config is compatible with Stylelint v17.0.0 and above, and requires Node.js v20.19.0 or higher.
 
 ## Usage
 
