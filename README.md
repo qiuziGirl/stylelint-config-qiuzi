@@ -2,6 +2,10 @@
 
 Default stylelint config used by qiuzi.
 
+## Development
+
+This repository ships a project-local [`.yarnrc`](./.yarnrc) that points Yarn 1.x to the [npmmirror.com](https://npmmirror.com) registry (formerly Taobao npm mirror) for faster installs in mainland China. The [`yarn.lock`](./yarn.lock) `resolved` tarball URLs use the same host.
+
 ## Installation
 
 ```bash
