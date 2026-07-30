@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-qiuzi",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Default stylelint config used by qiuzi.",
   "main": "css/index.js",
   "repository": {
@@ -33,12 +33,12 @@
     "stylelint-config-recommended-scss": "^17.0.1",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-order": "^8.1.1",
-    "stylelint-scss": "^7.1.0"
+    "stylelint-scss": "^7.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.0",
-    "eslint": "^10.0.0",
-    "stylelint": "^17.11.0"
+    "eslint": "^10.8.0",
+    "stylelint": "^17.14.1"
   },
   "scripts": {
     "eslint": "eslint --report-unused-disable-directives .",
